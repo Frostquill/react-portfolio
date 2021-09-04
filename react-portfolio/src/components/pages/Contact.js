@@ -34,30 +34,30 @@ function ContactForm() {
         console.log(formState);
     }
     return(
-        <section>
+        <section className="container">
         <h1 data-testid="h1tag">Contact me</h1>
-        <form id = "contact-form" onSubmit={handleSubmit}>
+        <form  className="mb-3" id = "contact-form" onSubmit={handleSubmit}>
             {/* name input */}
             <div>
-                <label htmlFor="name">Name:</label>
-                <input type="text" defaultValue={name}  onBlur={handleChange} name="name" />
+                <label className="form-label" htmlFor="name">Name:</label>
+                <input className="form-control" type="text" defaultValue={name}  onBlur={handleChange} name="name" />
             </div>
             {/* email input */}
             <div>
-                <label htmlFor="email">Email address:</label>
-                <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+                <label className="form-label" htmlFor="email">Email address:</label>
+                <input className="form-control" type="email" name="email" defaultValue={email} onBlur={handleChange}/>
             </div>
             {/* message text area */}
             <div>
-                <label htmlFor="message">Message:</label>
-                <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" /> 
+                <label className="form-label" htmlFor="message">Message:</label>
+                <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="5" /> 
             </div>
             { errorMessage && (
                 <div> 
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
-                <button data-testid="button" type="submit">Submit</button>
+                <button className = "contact-button" data-testid="button" type="submit">Submit</button>
         </form>
     </section>
     )

@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: #333333;
+  --accent-color: #ffffff;
+  --secondary-accent-color: #1c5d99;
+  --secondary-primary-color: #639fab;
+  --trim-color: #bbcde5;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background-color: var(--secondary-primary-color);
+  color: var(--accent-color);
+  height: 15vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: var(--primary-color);
+}
+main {
+  color:var(--accent-color);
+  height:fit-content;
+  
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tabs {
+  font-size: 25px;
+  color: var(--accent-color) !important;
+  text-decoration: none;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.tabs-back {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tabs-back:hover {
+  
+  background-color: var(--accent-color);
+
+}
+
+.tabs:hover{
+  color: var(--secondary-primary-color) !important;
+}
+
+.contact-button {
+  background-color: var(--trim-color);
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  height:70px;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color: var(--secondary-accent-color);
+  
+  
+}
+
+.logos {
+  margin-left: 20px !important;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+
+}
+
+.resume {
+  margin-top: 5%;
 }

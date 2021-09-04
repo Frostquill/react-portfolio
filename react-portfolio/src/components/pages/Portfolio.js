@@ -42,14 +42,15 @@ const Portfolio = () => {
       ])
 
       return (
-    <div>
-    <h1>Portfolio</h1>
-    <div>
-    <Project
-    projects={projects}> 
+    <div className="container">
+    <div className="row">
+    <h1 className="col-12">Portfolio</h1>
+        <Project
+          projects={projects}> 
         </Project>
-    </div>
-    </div>
+        </div>
+        </div>
+    
       )
       };
 

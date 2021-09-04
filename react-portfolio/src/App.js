@@ -6,6 +6,8 @@ import Aboutme from './components/pages/Aboutme';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
+import './App.css';
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About Me')
