@@ -10,7 +10,7 @@ const Header = (props) => {
 
     useEffect(() => {
         document.title = capitalizeFirstLetter(currentPage)
-    }, {currentPage} )
+    },  [currentPage])
     
     
     
