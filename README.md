@@ -1,3 +1,4 @@
+
 # react-portfolio
 
 the following challenge was completed to meet the following criteria:
@@ -31,5 +32,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ** Description ** 
 react was used to build the neccessary components. Bootstrap and a personal css styling page were used to build a layout for the portfolio. 
+
+![react-portfolio](https://user-images.githubusercontent.com/79546270/132111468-800cbd24-67cc-4e50-b00a-391a7cf2b6eb.JPG)
 
 https://frostquill.github.io/react-portfolio/ - link to live url
