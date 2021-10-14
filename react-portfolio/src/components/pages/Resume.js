@@ -19,6 +19,9 @@ const Resume = () => (
         <li>Express</li>
         <li>MySQL</li>
         <li>MongoDB</li>
+        <li>React</li>
+        <li>Handlebars</li>
+        <li>Apollo Server</li> 
     </ul>
 
     </div>
